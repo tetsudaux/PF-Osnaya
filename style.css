@@ -2,6 +2,7 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
 
 /* FUENTES */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -15,7 +16,13 @@ BLANCO: f7f7f8;
 */
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-max {
+    max-width: 1140px;
 }
 
 h2, .navbar-brand {
@@ -28,4 +35,39 @@ h2, .navbar-brand {
     color: white;
     font-size: xx-large;
     width: fit-content;
+}
+.bg-footer {
+    background-color: #f4f2ee;
+}
+
+.footer-list {
+    text-decoration: none;
+    padding-left: 0;
+}
+
+.footer-list > li {
+    list-style: none;
+
+}
+
+.footer-social-icons {
+    font-size: x-large;
+}
+
+.footer-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #91918e;
+}
+
+.footer-navbar > li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.footer-navbar > li a {
+
+
 }
