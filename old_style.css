@@ -67,18 +67,18 @@ h2, .navbar-brand {
     margin: 0 0.5em;
 }
 
-.my-card {
+.articulos__card {
     border: 1px solid;
     transition: 0.5s;
 }
 
-.my-card:hover {
+.articulos__card:hover {
     box-shadow: 0px 0px 51px -15px rgba(5,60,138,0.81);
 }
 
 /* ANIMATION */
 
-.animation-area {
+.animation {
     position: fixed;
     /* background: linear-gradient(to left, #00000050, #ffffff50); */
     width: 100%;
@@ -86,7 +86,7 @@ h2, .navbar-brand {
     z-index: 5;
     overflow: hidden;
 }
-.box-area {
+.animation__box-area {
     position: fixed;
     z-index: -1;
     bottom: 0px;
@@ -96,7 +96,7 @@ h2, .navbar-brand {
     overflow: hidden;
 }
 
-.box-area li {
+.animation__box-area li {
     position: fixed;
     overflow: hidden;
     z-index: -1;
@@ -110,37 +110,37 @@ h2, .navbar-brand {
     animation: animate 20s linear infinite;
 }
 
-.box-area li:nth-child(1){
+.animation__box-area li:nth-child(1){
     left: 12%;
     width: 60px;
     height: 60px;
     animation-delay: 1.2s;
 }
-.box-area li:nth-child(2){
+.animation__box-area li:nth-child(2){
     left: 26%;
     width: 120px;
     height: 120px;
     animation-delay: 2.4s;
 }
-.box-area li:nth-child(3){
+.animation__box-area li:nth-child(3){
     left: 38%;
     width: 80px;
     height: 80px;
     animation-delay: 1.8s;
 }
-.box-area li:nth-child(4){
+.animation__box-area li:nth-child(4){
     left: 62%;
     width: 180px;
     height: 180px;
     animation-delay: 0.6s;
 }
-.box-area li:nth-child(5){
+.animation__box-area li:nth-child(5){
     left: 74%;
     width: 60px;
     height: 60px;
     animation-delay: 1.2s;
 }
-.box-area li:nth-child(6){
+.animation__box-area li:nth-child(6){
     left: 86%;
     width: 96px;
     height: 96px;

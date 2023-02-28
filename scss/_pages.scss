@@ -1,0 +1,55 @@
+h2 {
+    font-family: $brand-font;
+}
+
+.container-max {
+    max-width: $cont-max;
+}
+
+.navbar-brand {
+    h2 {
+        font-family: $brand-font;
+    }
+}
+
+.feature-icon-small {
+    color: white;
+    font-size: xx-large;
+    width: fit-content;
+}
+.bg-footer {
+    background-color: $gray-1;
+}
+
+.footer-list {
+    text-decoration: none;
+    padding-left: 0;
+    & li {
+        list-style: none;
+    }
+}
+
+
+.footer-social-icons {
+    font-size: x-large;
+}
+
+.footer-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #91918e;
+    & li {
+        display: inline-block;
+        margin: 0 0.5em;
+    }
+}
+
+.articulos__card {
+    border: 1px solid;
+    transition: 0.5s;
+    &:hover {
+        box-shadow: 0px 0px 51px -15px rgba(5,60,138,0.81);
+    }
+}
