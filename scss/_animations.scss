@@ -28,6 +28,16 @@
     }
 }
 
+
+@for $i from 1 through 6 {
+    .animation__box-area li:nth-child(#{$i}{
+        left: random(100) / 100 * 100%;
+        width: 20px ;
+        height: ;
+        animation-delay: ;
+    })
+}
+
 .animation__box-area li:nth-child(1){
     left: 12%;
     width: 60px;

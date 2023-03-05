@@ -9,7 +9,12 @@ $third-color: #bde0fe;
 $fourt-color: #ffc8dd;
 $fifth-color: #cdb4db;
 
-//GRAYS
+// USAR MAPAS
+$grises: (
+    gray0: $gray-0,
+    gray1: $gray-1,
+    gray2: $gray-4
+)
 $gray-0: #343a40;
 $gray-1: #6c757d;
 $gray-2: #ced4da;
