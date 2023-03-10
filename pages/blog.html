@@ -11,57 +11,57 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
-          <div class="container container-max">
-            <a class="navbar-brand" href="./index.html">MEDITAHOUSE</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./blog.html" aria-current="page">Blog<span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./product.html">Producto</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Soluciones</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="./for_people.html"><i class="fi fi-rr-user"></i> People</a>
-                            <a class="dropdown-item" href="./for_business.html"><i class="fi fi-rr-city"></i> Empresas</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-      </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
+            <div class="container container-max">
+                <a class="navbar-brand" href="../index.html"><h2>MEDITAHOUSE</h2></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./blog.html" aria-current="page">Blog<span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product.html">Producto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Soluciones</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="./for_people.html"><i class="fi fi-rr-user"></i> People</a>
+                                <a class="dropdown-item" href="./for_business.html"><i class="fi fi-rr-city"></i> Empresas</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
     
-  </header>
+    </header>
   <main>
     <!-- HERO -->
     <div class="container-fluid container-max">
         <div class="row justify-content-center flex-lg-row-reverse flex-md-row-reverse align-items-center py-5 g-2">
             <div class="col-10 col-md-6">
-                <img src="./assets/girl2.webp" class="img-fluid rounded-top" alt="" style="z-index: 1;">
+                <img src="../assets/girl2.webp" class="img-fluid rounded-top" alt="" >
             </div>
             <div class="col-10 col-md-6">
                 <h2>Prioriza tu salud mental hoy para una vida mejor</h2>
                 <p>Encuentra el equilibrio emocional y la felicidad en tu vida diaria. Descubre consejos, herramientas y recursos para cuidar de tu salud mental. Explora temas como la ansiedad, la depresión, el estrés y el bienestar emocional en nuestro blog.</p>
-                <a name="" id="" class="btn btn-primary" href="#" role="button"> <i class="fi fi-rr-caret-down"></i> Ver artículos</a>
+                <a name="" id="" class="btn btn-primary" href="#articles" role="button"> <i class="fi fi-rr-caret-down"></i> Ver artículos</a>
             
             </div>
         </div>
     </div>
     <!-- LISTA DE ARTICULOS -->
-    <div class="container-fluid container-max ">
+    <div class="container-fluid container-max " id="articles">
         <div class="row justify-content-center align-items-center g-2 flex-wrap "">
             <div class="card articulos__card  border-primary border-5 rounded-4 m-2" style="width: 18rem;">
                 <img src="../assets/cover1.webp" class="w-100 rounded-4" alt="...">

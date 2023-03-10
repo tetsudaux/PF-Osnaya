@@ -8394,16 +8394,19 @@ textarea.form-control-lg {
   padding: 0; }
 
 html {
-  font-family: system-ui, -apple-system , sans-serif; }
+  font-family: system-ui, -apple-system , sans-serif;
+  scroll-behavior: smooth; }
 
-h2, .h2 {
-  font-family: "Bebas Neue", cursive; }
+main h2, main .h2 {
+  font-family: "Bebas Neue", cursive;
+  font-style: oblique; }
 
 .container-max {
   max-width: 1140px; }
 
 .navbar-brand h2, .navbar-brand .h2 {
-  font-family: "Bebas Neue", cursive; }
+  font-family: "Bebas Neue", cursive;
+  font-style: oblique; }
 
 .feature-icon-small {
   color: white;
@@ -8437,3 +8440,8 @@ h2, .h2 {
   transition: 0.5s; }
   .articulos__card:hover {
     box-shadow: 0px 0px 51px -15px rgba(5, 60, 138, 0.81); }
+
+.plans__badge {
+  position: absolute;
+  width: fit-content;
+  bottom: 65px; }

@@ -1,6 +1,10 @@
-h2 {
-    font-family: $brand-font;
+main {
+    h2 {
+        font-family: $brand-font;
+        font-style: oblique;
+    }
 }
+
 
 .container-max {
     max-width: $cont-max;
@@ -9,6 +13,7 @@ h2 {
 .navbar-brand {
     h2 {
         font-family: $brand-font;
+        font-style: oblique;
     }
 }
 
@@ -52,4 +57,10 @@ h2 {
     &:hover {
         box-shadow: 0px 0px 51px -15px rgba(5,60,138,0.81);
     }
+}
+
+.plans__badge {
+    position: absolute;
+    width: fit-content;
+    bottom: 65px;
 }
